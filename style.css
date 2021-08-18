@@ -1,0 +1,42 @@
+html {
+    background-image: url(images/hallway.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+   
+  
+}
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: white;
+    height: 100vh;
+  
+}
+
+#textt {
+    text-align: center;
+    
+
+}
+
+p:hover {
+    border: solid 3px black;
+    padding: 7px;
+    margin: 10px;
+    width: 400px;
+    background: rgb(57, 181, 197);
+    text-align: center;
+    border:outset 10px rgb(102, 117, 202);
+}
+
+
+li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
